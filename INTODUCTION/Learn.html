@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <style>
+        .hello_button{
+            background-color: antiquewhite;
+            border : none;
+            height: 30px;
+            width: 70px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            color: black;
+            font-weight: bold;
+            border-radius: 3px;
+            transition: backgroung-color 0.15s,
+            color 0.15s;
+            font-weight: solid;
+            
+        }
+        .hello_button:hover{
+            background-color: black;
+            color: antiquewhite;
+            opacity: 1;
+    
+           
+
+        }
+        .hello_button:active{
+            opacity: 0.3;
+        }
+        .sub_button {
+            background-color: none;
+            color: black;
+            border-radius: 5px;
+            border-style: solid;
+            height: 30px;
+            width: 105px;
+            border-color: aqua;
+            cursor: pointer;
+            margin-right: 20px;
+            transition: background-color 0.15s, color 0.15s ;
+            font-weight: bold;
+            
+        }
+        .sub_button:hover{
+            background-color: black;
+            color : wheat;
+        }
+        .sub_button:active{
+            opacity: 0.3;
+        }
+        .tweet{
+            background-color: rgb(48, 48, 196);
+            color: white;
+            height: 30px;
+            width: 70px;
+            cursor: pointer;
+            border: none;
+            border-radius: 15px;
+            transition: box-shdow 0.15s;
+            margin-right: 20px;
+            font-weight: bold;
+
+        }
+        .tweet:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+            
+
+        }
+        .Amazon{
+            background-color:rgb(255, 217, 0);
+            height: 30px;
+            width: 120px;
+            margin-left: 20px;
+            font-weight: bold;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+            
+        }
+        .Amazon:hover{
+            opacity:0.8;
+        }
+        
+    </style>
+  
+</head>
+<body>
+  <button class = "hello_button" onclick="alert('hey dear')">HELLO</button>
+  <button class = 'sub_button'> SUBCRIBE </button>
+  <button class = 'tweet'> TWEET</button>
+  <a href="https://www.google.co.in/" target = "_blank">GOOGLE</a>
+  <button class = 'Amazon'> Add to cart </button>
+
+</body>
+</html>
